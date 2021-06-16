@@ -1,0 +1,39 @@
+body{
+    background-color: #a5e1ad;
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    height: 450px;
+    align-items: center; 
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    margin: 15px;
+}
+
+.container > div:nth-child(1){
+    flex: 1;
+}
+
+.container > div:nth-child(2){
+    flex: 3;
+}
+
+#instructions-list{
+    list-style-type: none;
+    font-size: larger;
+    font-style: oblique;
+    background-color:rgb(250, 148, 148);
+    padding: 15px;
+    width:fit-content
+    
+}
+
+li{
+    background: rgb(3, 157, 184);
+}
